@@ -1,0 +1,8 @@
+x=int(input("Enter a number: "))
+y=int(input("Enter another number: "))
+def multiply(x,y):
+  z=x*y
+  return z
+
+result = multiply(x,y)
+print("The result of multiplication is",result,)
